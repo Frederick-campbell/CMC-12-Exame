@@ -1,0 +1,4 @@
+requisitos = obterRequisitos();
+planta = obterPlantaServoPosicao();
+controlador = projetarControladorServoOtimizacao(requisitos, planta);
+simularRespostaDegrau(controlador, planta);
