@@ -12,6 +12,6 @@ G = pid(Kd, Ki, Kd);
 
 s = tf('s');
 sys = 1 / (s + 1)^4;
-G2 = pidtune(sys, 'pid');
+G2 = pidtune()
 
 step(G);
