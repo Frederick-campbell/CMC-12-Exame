@@ -17,3 +17,20 @@ constantes foram determinadas através do método de Ziegler-Nichols
 mais um ajuste fino baseado na simulação do sistema linear 
 controlado, discretiza o ganho e estabelece os parâmetros do 
 diagrama de blocos.
+
+2) Integracao Condicional
+
+Basta compilar simulation2.m, que simula ambos os
+sistemas PID + saturação e PID + saturação + integracao condicional 
+para comparação e possibilitar a análise da técnica em questão.
+
+simulation2.m: organiza e compila os arquivos do projeto.
+
+integracao_condicional.slx: diagrama de blocos discretizado para 
+simular o sistema com e sem a integracao condicional.
+
+IntegracaoCondicional.m: a partir de um ganho, projeta o PID, cujas
+constantes foram determinadas através do método de Ziegler-Nichols 
+mais um ajuste fino baseado na simulação do sistema linear 
+controlado, discretiza o ganho e estabelece os parâmetros do 
+diagrama de blocos.
