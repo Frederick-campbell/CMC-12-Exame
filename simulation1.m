@@ -14,7 +14,7 @@ parameters = BackCalculation(1);
 output = sim('back_calculation.slx');
 plot(output.tout, output.y.signals.values);
 
-print -dpng -r400 simu_backCalculation.png % para usuarios de Word
+print -dpng -r400 simulation_backCalculation.png % para usuarios de Word
 % print -depsc2 corrente_degrau.eps % para usuarios de LaTeX
 
 %---------------------
