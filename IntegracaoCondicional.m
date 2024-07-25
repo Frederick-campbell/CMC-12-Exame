@@ -2,7 +2,7 @@ function parameters = IntegracaoCondicional(On)
 parameters.Kd = 0.8;
 parameters.Ki = 0.2;
 parameters.Kp = 1.5;
-parameters.On = On;
+parameters.On = On; % determina se a integracao funcional esta ligada(1) ou desligada.
 
 s = tf('s');
 G = (1 - s) / ((4 * s + 1) * (2 * s + 1));
