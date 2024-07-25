@@ -1,8 +1,8 @@
-function parameters = BackCalculation(Kt)
+function parameters = IntegracaoCondicional(On)
 parameters.Kd = 0.8;
 parameters.Ki = 0.2;
 parameters.Kp = 1.5;
-parameters.Kt = Kt;
+parameters.On = On;
 
 s = tf('s');
 G = (1 - s) / ((4 * s + 1) * (2 * s + 1));
